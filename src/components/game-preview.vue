@@ -1,6 +1,6 @@
 <template>
-    <section class="game-preview" v-if="game" @click="openDetails">
-        <img :src=game.thumbnail  />
+    <section class="game-preview" v-if="game" >
+        <img :src=game.thumbnail  @click="openDetails"/>
     </section>
 </template>
 <script>

@@ -1,0 +1,17 @@
+.game-list {
+  /* background-color: aqua; */
+  /* margin: 0 auto; */
+  text-align: center;
+  display: grid;
+  gap: 1em;
+}
+@media (min-width: 800px) {
+  .game-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .game-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,19 @@
+.game-details {
+  text-align: center;
+  display: flex;
+  text-align: left;
+  gap: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.game-details h2 {
+  color: #fff;
+}
+
+.game-details a{
+    color: #66c0f4;
+}
+.game-details a:hover{
+    color: #ffffff;
+}

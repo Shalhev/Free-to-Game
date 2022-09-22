@@ -1,11 +1,13 @@
 <template>
     <section class="game-details" v-if="game">
         <img :src=game.thumbnail />
-        {{game.title}}
-        {{game.short_description}}
-        {{game.genre}}
-        {{game.publisher}}
-        <a :href="game.game_url">{{game.game_url}}</a>
+        <div class="game-info">
+            <h2>{{game.title}}</h2>
+            <p>Description: {{game.short_description}}</p>
+            <p>Genre: {{game.genre}}</p>
+            <p>Publisher: {{game.publisher}}</p>
+            <a :href="game.game_url">{{game.game_url}}</a>
+        </div>
     </section>
     <section class="not-found" v-else>
         404 Not Found

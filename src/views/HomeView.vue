@@ -1,6 +1,5 @@
 <template>
-  <section>
-    <h1>Games list</h1>
+  <section class="home-view">
     <gameList />
   </section>
 </template>
