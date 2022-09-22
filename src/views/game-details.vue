@@ -1,6 +1,6 @@
 <template>
     <section class="game-details" v-if="game">
-        <img :src=game.thumbnail />
+        <img :src=game.thumbnail /> 
         <div class="game-info">
             <h2>{{game.title}}</h2>
             <p>Description: {{game.short_description}}</p>
