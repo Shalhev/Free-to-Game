@@ -5,6 +5,7 @@
   display: grid;
   gap: 1em;
   /* margin: 0 50px; */
+  height: fit-content;
 }
 @media (min-width: 800px) {
   .game-list {
