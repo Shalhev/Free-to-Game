@@ -1,6 +1,9 @@
 @import 'basic/base.css';
+
 @import 'cmps/game-list.css';
 @import 'cmps/game-preview.css';
 @import 'cmps/app-header.css';
+@import 'cmps/game-filter.css';
+
 @import 'views/home-view.css';
 @import 'views/game-details.css';
