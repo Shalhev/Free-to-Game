@@ -4,7 +4,7 @@
   text-align: left;
   gap: 1em;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 50px auto;
   background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
     padding: 16px;
 }

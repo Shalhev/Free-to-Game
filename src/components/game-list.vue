@@ -4,7 +4,7 @@
         <gamePreview v-for="game in games" :game="game" />
     </section>
     <section v-else>
-        <h2>Loading...</h2>
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
     </section>
 </template>
 <script>

@@ -1,1 +1,8 @@
+.home-view{
+    margin: 0px 50px;
+}
 
+.main-content{
+    display: grid;
+    grid-template-columns: 200px auto;
+}

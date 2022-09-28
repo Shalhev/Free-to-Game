@@ -4,6 +4,7 @@
   text-align: center;
   display: grid;
   gap: 1em;
+  /* margin: 0 50px; */
 }
 @media (min-width: 800px) {
   .game-list {

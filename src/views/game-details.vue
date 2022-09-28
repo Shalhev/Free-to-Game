@@ -10,7 +10,7 @@
         </div>
     </section>
     <section class="not-found" v-else>
-        Loading...
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
     </section>
 </template>
 <script>

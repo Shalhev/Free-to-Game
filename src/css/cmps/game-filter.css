@@ -1,9 +1,9 @@
 .game-filter {
   display: flex;
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
   flex-basis: 1;
   /* width: 900px; */
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .game-filter form {
@@ -13,6 +13,7 @@
 }
 
 .game-filter input {
+  font-size: 15px;
   min-width: 100%;
   padding: 5px;
   padding-left: 10px;

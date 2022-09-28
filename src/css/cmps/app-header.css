@@ -1,8 +1,18 @@
 .app-header {
   color: #fff;
   padding-left: 50px;
+  background: #171a21;
+  box-shadow: 0 0px 20px -10px #ffffff69;
 }
 
 .app-header .logo{
+  display: inline-block;
     cursor: pointer;
+    color: #b8b6b4;
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.app-header .logo:hover{
+  color: #fff;
 }

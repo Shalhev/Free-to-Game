@@ -4,6 +4,7 @@
 @import 'cmps/game-preview.css';
 @import 'cmps/app-header.css';
 @import 'cmps/game-filter.css';
+@import 'cmps/side-bar.css';
 
 @import 'views/home-view.css';
 @import 'views/game-details.css';
