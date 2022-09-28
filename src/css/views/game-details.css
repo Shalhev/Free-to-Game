@@ -11,6 +11,7 @@
 
 .game-details h2 {
   color: #fff;
+  margin: 0;
 }
 
 .game-details a{
@@ -18,4 +19,8 @@
 }
 .game-details a:hover{
     color: #ffffff;
+}
+.game-info{
+  display: flex;
+  flex-direction: column;
 }

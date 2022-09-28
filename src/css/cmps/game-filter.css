@@ -36,3 +36,6 @@
 .game-filter input::placeholder {
   color: #fff;
 }
+.game-filter input:hover {
+  border: 1px solid #4c9acc;
+}
