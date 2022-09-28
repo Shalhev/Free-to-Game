@@ -10,7 +10,7 @@
         </div>
     </section>
     <section class="not-found" v-else>
-        404 Not Found
+        Loading...
     </section>
 </template>
 <script>
