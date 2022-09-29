@@ -27,6 +27,7 @@ export default {
     for (const { genre } of this.games) {
       if (!this.genres.includes(genre)) this.genres.push(genre)
     }
+    this.genres.sort()
   },
   methods: {
     setFilter(txt) {
