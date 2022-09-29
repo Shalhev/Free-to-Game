@@ -1,10 +1,17 @@
 <template>
     <section class="game-list" v-if="games">
-        <!-- <pre>{{games}}</pre> -->
-        <gamePreview v-for="game in games" :game="game" />
+        <gamePreview v-if="games" v-for="game in games" :game="game" />
+        <section v-if="games.length === 0">
+            0 results match your search.
+        </section>
     </section>
     <section v-else>
-        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </section>
 </template>
 <script>
