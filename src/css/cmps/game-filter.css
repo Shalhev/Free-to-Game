@@ -5,6 +5,11 @@
   /* width: 900px; */
   margin: 20px 0 20px 200px;
 }
+@media (max-width: 600px) {
+  .game-filter {
+    margin: 20px 0 20px 0px;
+  }
+}
 
 .game-filter form {
   min-width: 100%;
